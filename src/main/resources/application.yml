@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    test:
+      path: /cards/**
+      service-id: cards-api
+      stripPrefix: true
